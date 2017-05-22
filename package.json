@@ -1,0 +1,23 @@
+{
+  "name": "nem-services",
+  "version": "0.0.1",
+  "description": "NEM's NanoWallet Services",
+  "main": "./lib/index.js",
+  "author": {
+    "name": "tadajam",
+    "email": "tadajam.dev@gmail.com"
+  },
+  "homepage": "https://github.com/tadajamdev/nem-services",
+  "license": "MIT",
+  "keywords": [
+    "nem"
+  ],
+  "dependencies": {
+    "rxjs": "^5.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "nem-utils": "0.0.2"
+  },
+  "scripts": {
+   "prepublish": "tsc -p ./src"
+  }
+}
