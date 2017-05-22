@@ -1,6 +1,6 @@
 {
   "name": "nem-services",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NEM's NanoWallet Services",
   "main": "./lib/index.js",
   "author": {
@@ -15,9 +15,6 @@
   "dependencies": {
     "rxjs": "^5.1.0",
     "isomorphic-fetch": "^2.2.1",
-    "nem-utils": "0.0.2"
-  },
-  "scripts": {
-   "prepublish": "tsc -p ./src"
+    "nem-utils": "0.0.3"
   }
 }
